@@ -71,7 +71,7 @@ function Sidebar() {
             <div className={styles.sidebarOptionsTop}>
                 <div
                     className={styles.sidebarOption}>
-                    <img
+                    <Image
                         onClick={() => setModalOpen(true)}
                         src="https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png"
                         alt="compose"
@@ -188,7 +188,7 @@ function Sidebar() {
             <div className={styles.sidebarOptionsBottom}>
                 <div className={styles.sidebarOptions}>
                     <div className={styles.sidebarOptionIcon}>
-                        <img
+                        <Image
                             src='https://www.gstatic.com/images/icons/material/system/1x/meet_white_20dp.png'
                             alt="meet"
                         />
@@ -203,7 +203,7 @@ function Sidebar() {
                 <div className={styles.sidebarBottomLast}>
                     <div className={styles.sidebarOptions}>
                         <div className={styles.sidebarOptionBottom}>
-                            <img
+                            <Image
                                 src="https://www.gstatic.com/images/icons/material/system/1x/hangout_white_20dp.png"
                                 alt='hangout'
                             />

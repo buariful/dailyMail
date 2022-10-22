@@ -17,7 +17,7 @@ function Header() {
       <div className={styles.header_left}>
         <IconButton>
           <MenuIcon />
-          <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png"
+          <Image src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png"
             alt="logo"
           />
         </IconButton>
